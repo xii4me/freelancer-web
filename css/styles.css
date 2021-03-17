@@ -1,0 +1,21 @@
+:root { /*Puedo almacenar propiedades que voy a reutilizar como colores o algún font-size*/
+    --blanco: #fff;
+    --obscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --background: #757575;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+}
+h1.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--obscuro);
+}
+h1.titulo span {
+    font-size: 2rem;
+}
